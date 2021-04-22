@@ -1,0 +1,36 @@
+{
+  "name": "ProductCode",
+  "fields": [
+    {
+      "fieldName": "upc",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "barcode",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "product",
+      "otherEntityRelationshipName": "productCode",
+      "relationshipName": "product",
+      "ownerSide": false
+    }
+  ],
+  "entityTableName": "product_code",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["gateway", "inventory"],
+  "microserviceName": "inventory",
+  "clientRootFolder": "inventory",
+  "databaseType": "sql",
+  "changelogDate": "20210422120639"
+}

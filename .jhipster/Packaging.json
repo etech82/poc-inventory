@@ -1,0 +1,57 @@
+{
+  "name": "Packaging",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "grosWeight",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "netWeight",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "length",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "width",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "height",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "product",
+      "otherEntityRelationshipName": "packaging",
+      "relationshipName": "product",
+      "otherEntityField": "code"
+    }
+  ],
+  "entityTableName": "packaging",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["gateway", "inventory"],
+  "microserviceName": "inventory",
+  "clientRootFolder": "inventory",
+  "databaseType": "sql",
+  "changelogDate": "20210422120439"
+}

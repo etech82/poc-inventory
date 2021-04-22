@@ -1,0 +1,11 @@
+id;name;description;company;type;storage_type;price;sales_unit;sales_quantity;image;image_content_type;status
+1;Steel;Assistant;cross-platform Principal;MEDICINE;STOREHOUSE;81149;GRAM;16316;../fake-data/blob/hipster.png;image/png;ONSALE
+2;Legacy deposit Track;Car;Soap withdrawal;MEDICINE;DRAWERS;57853;KILOGRAM;9654;../fake-data/blob/hipster.png;image/png;LOCKED
+3;Korea transmitting New;green Malagasy;Lao;MEDICINE;DRAWERS;4329;PIECE;16473;../fake-data/blob/hipster.png;image/png;ONSALE
+4;digital;CFP orange;Village;NA;STOREHOUSE;58781;LITER;20505;../fake-data/blob/hipster.png;image/png;INREPLENISHMENT
+5;JSON;Personal Steel;solutions;MEDICINE;STOREHOUSE;66238;KILOGRAM;14557;../fake-data/blob/hipster.png;image/png;OOUTOFSTOCK
+6;Chips De-engineered Tunnel;Intelligent;pixel methodical quantifying;NA;STOREHOUSE;99001;LITER;57905;../fake-data/blob/hipster.png;image/png;INREPLENISHMENT
+7;Forward open-source;Fantastic;Buckinghamshire;DRUG;STOREHOUSE;86012;KILOGRAM;95618;../fake-data/blob/hipster.png;image/png;ONSALE
+8;wireless sticky Harbors;Customer;Ergonomic Ergonomic;DRUG;SHELF;64809;PIECE;27583;../fake-data/blob/hipster.png;image/png;LOCKED
+9;Consultant Automotive;Operations Chicken;Usability multi-byte;MEDICINE;SHELF;62245;PIECE;88593;../fake-data/blob/hipster.png;image/png;INREPLENISHMENT
+10;Martinique Executive Down-sized;transitional;bypassing Chief interactive;SPICE;REFRIGERATOR;46586;LITER;59509;../fake-data/blob/hipster.png;image/png;OOUTOFSTOCK
