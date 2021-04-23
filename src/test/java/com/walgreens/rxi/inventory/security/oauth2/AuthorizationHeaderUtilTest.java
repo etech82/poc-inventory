@@ -186,8 +186,8 @@ class AuthorizationHeaderUtilTest {
                 .clientId("web-app")
                 .clientSecret("secret")
                 .redirectUriTemplate("/login/oauth2/code/oidc")
-                .authorizationUri("http://localhost:8080/auth/realms/master/protocol/openid-connect/auth")
-                .tokenUri("https://localhost:8080/auth/realms/master/protocol/openid-connect/token")
+                .authorizationUri("http://localhost:9080/auth/realms/jhipster/protocol/openid-connect/auth")
+                .tokenUri("https://localhost:9080/auth/realms/jhipster/protocol/openid-connect/token")
                 .build(),
             "sub",
             new OAuth2AccessToken(

@@ -42,6 +42,9 @@
     "creationTimestamp": 1619092899600,
     "jwtSecretKey": "Y2JiNzQ5YzZhMWNmZmI0YjFlMzliZGU3OTFmNzNmYTRmZjAwYTI1ODJjZjU2ZTM1NWNkYzU5ODNiMDdjZDI5NDU5YjQ1ODY5MjEyOGY4NjY4ZjFmZWI2NGEwMmIyM2U5OTBjMDRmYTM4YzQzZmE5ODhkNDlmNDFlYjZhZDg2N2Y=",
     "entities": ["Catalog", "Category", "Packaging", "Product", "ProductCode"],
-    "lastLiquibaseTimestamp": 1619093199000
+    "lastLiquibaseTimestamp": 1619093199000,
+    "appFolder": "inventory",
+    "targetImageName": "rxi/inventory",
+    "dbPeerCount": 1
   }
 }
