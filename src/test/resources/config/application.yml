@@ -84,7 +84,7 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
+            issuer-uri: http://keycloak:9080/auth/realms/jhipster
 
 server:
   port: 10344
@@ -111,7 +111,7 @@ jhipster:
     from: test@localhost
     base-url: http://127.0.0.1:8080
 kafka:
-  bootstrap-servers: localhost:9092
+  bootstrap-servers: kafka:9092
   consumer:
     key.deserializer: org.apache.kafka.common.serialization.StringDeserializer
     value.deserializer: org.apache.kafka.common.serialization.StringDeserializer

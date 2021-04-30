@@ -177,7 +177,7 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/auth/realms/jhipster
+            issuer-uri: http://keycloak:9080/auth/realms/jhipster
         registration:
           oidc:
             client-id: internal
@@ -205,13 +205,13 @@ jhipster:
   clientApp:
     name: 'inventoryApp'
   # By default CORS is disabled. Uncomment to enable.
-  # cors:
-  #   allowed-origins: "http://localhost:8100,http://localhost:9000"
-  #   allowed-methods: "*"
-  #   allowed-headers: "*"
-  #   exposed-headers: "Authorization,Link,X-Total-Count,X-${jhipster.clientApp.name}-alert,X-${jhipster.clientApp.name}-error,X-${jhipster.clientApp.name}-params"
-  #   allow-credentials: true
-  #   max-age: 1800
+  #cors:
+  #  allowed-origins: "http://localhost:8100,http://localhost:9000"
+  #  allowed-methods: "*"
+  #  allowed-headers: "*"
+  #  exposed-headers: "Authorization,Link,X-Total-Count,X-${jhipster.clientApp.name}-alert,X-${jhipster.clientApp.name}-error,X-${jhipster.clientApp.name}-params"
+  #  allow-credentials: true
+  #  max-age: 1800
   mail:
     from: inventory@localhost
   api-docs:
@@ -233,7 +233,7 @@ jhipster:
         - account
         - api://default
 kafka:
-  bootstrap-servers: localhost:9092
+  bootstrap-servers: kafka:9092
   consumer:
     key.deserializer: org.apache.kafka.common.serialization.StringDeserializer
     value.deserializer: org.apache.kafka.common.serialization.StringDeserializer
